@@ -1,8 +1,8 @@
-# @summary An example class
-# @param file
-#   The file to manage
-# @param content
-#   The content in the file
+# @summary a simple class to write a file
+#
+# @param file The filepath to manage
+# @param content the desired text that we put into the file
+#
 class example (
   Stdlib::Absolutepath $file = '/tmp/puppet-example',
   String[1] $content = 'Hello World!',
